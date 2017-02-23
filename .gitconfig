@@ -1,0 +1,12 @@
+[user]
+	name = Henadzi Kharkhasau
+	email = Henadzi_Kharkhasau@epam.com
+[merge]
+	tool = kdiff3
+
+[mergetool "kdiff3"]
+	cmd = \"c:\\Program Files\\KDiff3\\kdiff3\" $BASE $LOCAL $REMOTE -o $MERGED
+[core]
+	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+[alias]
+	last = log -1 HEAD
